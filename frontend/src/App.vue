@@ -16,12 +16,22 @@ import { RouterLink, RouterView } from 'vue-router';
           <nav class="space-y-2">
             <RouterLink to="/" class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
               <i class="fas fa-home mr-3"></i>
-              <span>FUNCTIONALITY</span>
+              <span>Home</span>
             </RouterLink>
-            <RouterLink to="/about"
+            <RouterLink to="/movies"
               class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
-              <i class="fas fa-info-circle mr-3"></i>
-              <span>FUNCTIONALITY</span>
+              <i class="fas fa-film mr-3"></i>
+              <span>Movies</span>
+            </RouterLink>
+            <RouterLink to="/actresses"
+              class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
+              <i class="fas fa-person mr-3"></i>
+              <span>Actresses</span>
+            </RouterLink>
+            <RouterLink to="/reviews"
+              class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
+              <i class="fas fa-comment mr-3"></i>
+              <span>Reviews</span>
             </RouterLink>
           </nav>
         </div>
